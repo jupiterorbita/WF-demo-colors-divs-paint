@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lot's of buttons</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Pixelify Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Pixel drawings</h1>
+    <div class="box-grid">
+        <!-- <div class="box"></div> -->
+    </div>
+    <br>
+
+    <h3>select a color, hold down the SHIFT key on the canvas to draw 🖌️ (^_^)b</h3>
+    <button>clear</button>
+
+    <button class="blue" onclick="setSelectedColor(this)">🟦</button>
+    <button class="steelblue" onclick="setSelectedColor(this)">🔷</button>
+    <button class="red" onclick="setSelectedColor(this)">🟥</button>
+    <button class="tomato" onclick="setSelectedColor(this)">🍅</button>
+    <button class="green" onclick="setSelectedColor(this)">🟩</button>
+    <button class="limegreen" onclick="setSelectedColor(this)">🍏</button>
+    <button class="orange" onclick="setSelectedColor(this)">🟨</button>
+    <button class="brown" onclick="setSelectedColor(this)">🟫</button>
+    <button class="black" onclick="setSelectedColor(this)">⬛</button>
+    <button class="purple" onclick="setSelectedColor(this)">🟪</button>
+    <button class="white" onclick="setSelectedColor(this)">⬜</button>
+    <input type="color" />
+
+    <!-- active color -->
+    <div class="active-color">active color: </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
